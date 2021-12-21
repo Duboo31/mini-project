@@ -52,11 +52,6 @@
 }
 
 /* 컨텐츠 영역 */
-.content {
-}
-
-.banner {
-}
 
 .banner__img {
   width: 100%;
@@ -116,4 +111,7 @@
 .footer__logo > a {
   font-size: 30px;
   color: #fff;
+}
+
+@media screen (min-width: 800px) {
 }
