@@ -1,13 +1,89 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
+    <!-- 인코딩 방식 설명 -->
     <meta charset="UTF-8">
-    <title>Document</title>
-    <meta name="description" content="인프런 온라인 복습">
-    <meta name="keywords" content="Online Inflearn, 온라인 강의, it강의, html, css, js">
+
+    <!-- 문서의 타이틀 정의 -->
+    <title>문서의 타이틀</title>
+
+    <!-- 웹 페이지의 설명 부분 -->
+    <meta name="description" content="인프런 웹 페이지 제작 실습">
+
+    <!-- 검색 엔진의 키워드 -->
+    <meta name="keywords" content="키워드1, 키워드2, 키워드3, html, css, js, 등등">
+
+    <!-- 웹 페이지의 저자 -->
     <meta name="author" content="duboo">
+
+    <!-- 디바이스 별 해상도 즉, 반응형을 위한 뷰포트 설정 : 확대, 축소 등을 불가능하게 하는 것이 보통-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalble=no, maximum-scale=1.0, minimum-scale=1.0">
+    
+    <!-- 익스플로러 엔진에게 렌더링 시 최신 엔진을 사용해라 라는 것을 의미 -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- 페이지를 공유할 시에 사용자에게 보여지는 해당 페이지의 미리보기에 대한 설정 : 오픈그래프라 함-->
+
+    <!-- 웹의 기본적인 오픈그래프 설정 -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://example.com/page.html">
+    <meta property="og:title" content="Content Title">
+    <meta property="og:image" content="https://example.com/image.jpg">
+    <meta property="og:description" content="Description Here">
+    <meta property="og:site_name" content="Site Name">
+    <meta property="og:locale" content="en_US">
+    <!-- 다음의 태그는 필수는 아니지만, 포함하는 것을 추천함 -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- 네이버 블로그, 카카오톡에 대한 오픈그래프 -->
+    <meta property="og:title" content="콘텐츠 제목" /> 
+    <meta property="og:url" content="웹페이지 URL" />
+    <meta property="og:type" content="웹페이지 타입(blog, website 등)" />
+    <meta property="og:image" content="표시되는 이미지" /> 
+    <meta property="og:title" content="웹사이트 이름" /> 
+    <meta property="og:description" content="웹페이지 설명" />     
+
+    <!-- 트위터 오픈그래프 -->
+    <meta name="twitter:card" content="트위터 카드 타입(요약정보, 사진, 비디오)" /> 
+    <meta name="twitter:title" content="콘텐츠 제목" /> 
+    <meta name="twitter:description" content="웹페이지 설명" /> 
+    <meta name="twitter:image" content="표시되는 이미지 " /> 
+
+    <!-- 모바일 앱 오픈그래프 : 모바일 앱이 존재하는 경우 앱으로 연결 시 노출 -->
+    <!-- iOS -->
+    <meta property="al:ios:url" content=" ios 앱 URL" />
+    <meta property="al:ios:app_store_id" content="ios 앱스토어 ID" /> 
+    <meta property="al:ios:app_name" content="ios 앱 이름" /> 
+
+    <!-- Android -->
+    <meta property="al:android:url" content="안드로이드 앱 URL" />
+    <meta property="al:android:app_name" content="안드로이드 앱 이름" />
+    <meta property="al:android:package" content="안드로이드 패키지 이름" /> 
+    <meta property="al:web:url" content="안드로이드 앱 URL" />
+
+    <!-- 파비콘(fabicon) 설정 : 문서 타이틀 옆의 작은 이미지-->
+    <link rel="icon" href="img/fabicon.ico">
+
+    <!-- 아이폰용 fabicon -->
+    <link rel="apple-touch-icon" href="img/fabicon.ico">
+
+    <!-- 익스플로러 용 파비콘 -->
+    <link rel="short icon" type="image/x-icon" href="img/fabicon.ico">
+
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  
+    <!-- icon 용 Font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <!-- 웹 폰트용 google font 사이트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+
+    <!-- 개발자가 직접 작성한 외부 css file -->
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
   </body>
