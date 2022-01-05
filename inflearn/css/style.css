@@ -1,6 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 .wrap {
   margin: 0 auto;
   color: #3f464d;
+  font-family: "Spoqa Han Sans Neo", "Sans-serif";
 }
 
 a {
@@ -31,6 +36,7 @@ a:visited {
   width: 100%;
   height: 100%;
   margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .header-container {
@@ -53,12 +59,56 @@ a:visited {
 
 .header-container .header-sub {
   font-weight: bold;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
 }
 
 .header-container .header-sub a:hover {
   color: skyblue;
   cursor: pointer;
+}
+
+section {
+  width: 100%;
+  background: #fff;
+  position: relative;
+}
+
+.banner {
+  height: 360px;
+  background-image: url("http://placehold.it/1x1");
+  background-size: cover;
+  z-index: 1;
+}
+
+.banner-container {
+  width: 100%;
+  height: 100%;
+  background: rgb(47, 48, 89);
+  opacity: 0.7;
+  z-index: 2;
+  margin-top: 60px;
+}
+
+.banner-textBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.8rem;
+}
+
+.banner-text {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #fff;
+  line-height: 2rem;
 }
 
 @media only screen and (min-width: 1200px) {
