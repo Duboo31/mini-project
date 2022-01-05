@@ -1,10 +1,26 @@
 .wrap {
   margin: 0 auto;
+  color: #3f464d;
+}
+
+a {
+  all: unset;
+}
+
+a:link {
+  text-decoration: none;
+  color: #3f464d;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #3f464d;
 }
 
 .header {
   width: 100%;
   height: 60px;
+  background: #fff;
   position: fixed;
   top: 0;
   left: 0;
@@ -17,12 +33,32 @@
   margin: 0 auto;
 }
 
-.head-container {
+.header-container {
   width: 100%;
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-container .header-logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.header-container .header-logo a:hover {
+  color: skyblue;
+  cursor: pointer;
+}
+
+.header-container .header-sub {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.header-container .header-sub a:hover {
+  color: skyblue;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1200px) {
