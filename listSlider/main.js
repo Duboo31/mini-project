@@ -1,4 +1,6 @@
-let span = document.getElementsByTagName('span');
+let pre = document.querySelector('.pre');
+let next = document.querySelector('.next');
+
 	let product = document.getElementsByClassName('product')
 	let product_page = Math.ceil(product.length/4);
 	let l = 0;
@@ -10,7 +12,6 @@ let span = document.getElementsByTagName('span');
 	 {
 	 	movePer = 50.36;
 	 	maxMove = 504;
-     alert('asdasd')
 	 }
 
 	let right_mover = ()=>{
@@ -32,5 +33,6 @@ let span = document.getElementsByTagName('span');
 			}
 		}
 	}
-	span[1].onclick = ()=>{right_mover();}
-	span[0].onclick = ()=>{left_mover();}
+
+  pre.addEventListener('click', right_mover);
+  next.addEventListener('click', left_mover);
