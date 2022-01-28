@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.flex-wrap {
+  margin: 3rem;
+}
+
+.contents-container {
+  display: flex;
+  height: 265px;
+}
+
+.contents-container .aside-left {
+  flex: 1;
+}
+
+.contents-container .main {
+  flex: 1;
+}
+.contents-container .aside-right {
+  flex: 1;
+}
+
+.header {
+  background: #a3cdd9;
+}
+
+.aside-left {
+  background: #506ad4;
+}
+.main {
+  background: #f2cc39;
+}
+.aside-right {
+  background: #506ad4;
+}
+.footer {
+  background: #c2b8ad;
+}
