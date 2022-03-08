@@ -1,4 +1,4 @@
-# miniProject
+# mini-project
 
 > html, css를 사용하면서 배우고 공부한 내용을 구현해보기 위한 저장소입니다.
 
